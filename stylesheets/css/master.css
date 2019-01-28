@@ -1,0 +1,111 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background: #92E0E5;
+  color: white;
+  height: 50px;
+  padding: 0 25px;
+  padding-bottom: 10px
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type:none;
+}
+
+header li {
+  padding: 25px;
+  align-items: center;
+}
+
+header h1 {
+  float: left;
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+}
+
+#main_dog{
+background-image: url("../images/park.jpg");
+}
+
+#main_dog {
+  background-size: cover;
+  width: auto;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+#main_dog img{
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid #3F8DA7;
+  margin-bottom: 25px;
+}
+
+#main_dog h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+#main_dog p {
+  display: inline;
+  background: white;
+  border: 5px solid #3F8DA7;
+  color: #3F8DA7;
+  padding: 5px 10px;
+}
+
+article {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 10px;
+}
+
+article img {
+  border-radius: 50%;
+  border: 3px solid #3F8DA7;
+  height: 200px;
+  width: 200px;
+  margin: 25px;
+}
+
+#dogs {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline;
+  background: white;
+  border: 5px solid #3F8DA7;
+  color: #3F8DA7;
+  padding: 5px 10px;
+}
+
+footer {
+  margin-top: 10px;
+  color: white;
+  background-color: #3F8DA7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+footer h4 {
+  display: inline-block;
+}
+
+footer li{
+  list-style-type:none;
+  display: inline-block;
+  margin: 30px;
+}
+
+#footer {
+text-decoration: underline;
+}
